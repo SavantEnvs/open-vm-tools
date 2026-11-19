@@ -1,0 +1,9 @@
+project: savantenvs/open-vm-tools
+target: expand-string
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/expand-string/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_expand_string
+    libfuzzer: true
+    timeout: 10

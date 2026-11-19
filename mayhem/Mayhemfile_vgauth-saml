@@ -1,0 +1,9 @@
+project: savantenvs/open-vm-tools
+target: vgauth-saml
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/vgauth-saml/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_vgauth_saml
+    libfuzzer: true
+    timeout: 10

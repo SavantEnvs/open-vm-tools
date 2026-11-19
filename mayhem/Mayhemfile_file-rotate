@@ -1,0 +1,9 @@
+project: savantenvs/open-vm-tools
+target: file-rotate
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/file-rotate/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_file_rotate
+    libfuzzer: true
+    timeout: 10

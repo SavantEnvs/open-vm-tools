@@ -1,0 +1,9 @@
+project: savantenvs/open-vm-tools
+target: dndcp
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/dndcp/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_dndcp
+    libfuzzer: true
+    timeout: 10

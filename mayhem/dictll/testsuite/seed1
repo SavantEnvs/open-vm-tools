@@ -1,0 +1,4 @@
+config.version = "8"
+name = "a \"quoted\" |22value"
+# comment
+bare = 1

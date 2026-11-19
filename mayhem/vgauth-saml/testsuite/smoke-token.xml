@@ -1,0 +1,66 @@
+<saml:Assertion xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="_b07b804c-7c29-ea16-7300-4f3d6f7928ac" IssueInstant="2004-12-05T09:22:05Z" Version="2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<saml:Issuer>https://sso.eng.vmware.com</saml:Issuer>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_b07b804c-7c29-ea16-7300-4f3d6f7928ac">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>w0kRFhuuzMenlkrfZttAweUTHcyRsQtHRn2L01Rmsa4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>B54Qp2fO+YyMPK/6gYzCDigLZdOO3vEu8getiKB4a8s14ySoH6aQtq/RjgNSW8jr
+yNox9NRxc8ipBXC/noF8UBw6sUPpxsifMabWdMb9XvoZKufdDDrYKxQ4LwGjKF9y
+i2dO/Saw8kZ8CQKYvbNt0KkMqbQZNtDtM6AVAobWXuZioYyphQSJ6YZVwJnLh6wv
+sI0DgBqjFI91pID4n4N4SZq+tr2u8wcepnSIcmFNZ+BVdy7TKnjqTnjaDCG0Y0Uk
+P5wtWOAVpqTGMmTDpVwAtKfs089tDw/doGds+FIAXd6oR2eECo9j7SOm0i0V9pEn
+/nIe1Di7JNVJfl9V+g/bfA==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIDZTCCAk2gAwIBAgIJALuLD4JnajhkMA0GCSqGSIb3DQEBBQUAMEgxCzAJBgNV
+BAYTAlhYMRMwEQYDVQQIDApTbW9rZVN0YXRlMRIwEAYDVQQHDAlTbW9rZUNpdHkx
+EDAOBgNVBAoMB1Ntb2tlQ28wIBcNMTYwODE2MjIyOTIxWhgPMzAxNTEyMTgyMjI5
+MjFaMEgxCzAJBgNVBAYTAlhYMRMwEQYDVQQIDApTbW9rZVN0YXRlMRIwEAYDVQQH
+DAlTbW9rZUNpdHkxEDAOBgNVBAoMB1Ntb2tlQ28wggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDcRD+tNhOwxtEDDhnwQ94Qn+eEI4Nh6zXBP5CfnbMIHYo0
+1tzxLWOaJsN8/WoHy2cbeQkXGiGHpzuJIndhkL3XZpRdKTLIw95EVJkChYJi8ZUl
+LnaLIPsG1bpVOSuf+0qGcRyoItXBlvvYMZ5JAdUncHYnJ2NAbvqZVIH0sSafupzv
+w5txeQ7ufIcCzHYzSIFiX82CVMq/xuSQULVAZXoIfjNqMlwhYQn/EiSFb+y3kUa+
+xDzNWNyzv4H+7/6C+qz2KxTUbBEKT/lsuIVYVJ5R+1vZ2MnGkqsz8ELttXk0tAK+
+pfUAg7ugOhpF2rdvNOt4874Kkdj8a2It/JKqN3kBAgMBAAGjUDBOMB0GA1UdDgQW
+BBR9OuZuejgPVz64LWnhOfO1d6u0dTAfBgNVHSMEGDAWgBR9OuZuejgPVz64LWnh
+OfO1d6u0dTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQCZ91zS4zKZ
+uQv5rXn/zJtJ7d1pWnywh26n5bBlNQS3N7nAQPG5fvK2MB2rztE45Anq056YcYL7
+TTDDDPz9dGndThGyusHbzO/lV7UHCQUzMr0joItxrQoX7/4OPBMyARBLAE5wRa85
+uXm0D/Z6AAKJLz30yaQ+kBwTlIVhJFFhQv2zGZ3vB7CN0zNAZ/4s6lo+ejHj4Dhc
+PFsUDwWnqqp9iqZMX3vxp3BEuxUsSzXtuwBytvWcS/6i1LUl41obD4RNxZ3llQTN
++uXVUFTTt0NgCbMJq5G8Nz4ziyjgxT94tB/AMwRmJzPSvew3vGMFhF7Fm0Z3Oxn5
+kWMiikdSCME8
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><saml:Subject>
+<saml:NameID Format="urn:oasis:names:tc:SAML:2.0:nameid-format:transient">SmokeSubject</saml:NameID>
+<saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+<saml:SubjectConfirmationData NotOnOrAfter="2116-07-23T23:29:34.677406Z"/>
+</saml:SubjectConfirmation>
+</saml:Subject>
+<saml:Conditions NotBefore="2016-08-16T23:29:34.677402Z" NotOnOrAfter="2116-07-23T23:29:34.677229Z">
+<saml:AudienceRestriction>
+<saml:Audience>https://sp.example.com/SAML2</saml:Audience></saml:AudienceRestriction>
+</saml:Conditions>
+<saml:AuthnStatement AuthnInstant="2004-12-05T09:22:00Z" SessionIndex="b07b804c-7c29-ea16-7300-4f3d6f7928ac">
+<saml:AuthnContext>
+<saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</saml:AuthnContextClassRef>
+</saml:AuthnContext>
+</saml:AuthnStatement>
+<saml:AttributeStatement>
+<saml:Attribute FriendlyName="eduPersonAffiliation" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" xmlns:x500="urn:oasis:names:tc:SAML:2.0:profiles:attribute:X500" x500:Encoding="LDAP">
+<saml:AttributeValue xsi:type="xs:string">member</saml:AttributeValue>
+<saml:AttributeValue xsi:type="xs:string">staff</saml:AttributeValue>
+</saml:Attribute>
+</saml:AttributeStatement>
+</saml:Assertion>

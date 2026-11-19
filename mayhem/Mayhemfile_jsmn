@@ -1,0 +1,9 @@
+project: savantenvs/open-vm-tools
+target: jsmn
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/jsmn/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_jsmn
+    libfuzzer: true
+    timeout: 10

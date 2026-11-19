@@ -1,0 +1,9 @@
+project: savantenvs/open-vm-tools
+target: vix-proplist
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/vix-proplist/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_vix_proplist
+    libfuzzer: true
+    timeout: 10
